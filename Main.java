@@ -8,8 +8,9 @@ public class Main {
         float xfl=10.0f,yfl=30.0f,zfl=20f;
         String xs="new",ys="hello",zs="world";
 
-
-        new MaximumGeneric(xs,ys,zs).maximum();
+        new MaximumGeneric<Integer>(xint,yint,zint).testMaximum();
+        new MaximumGeneric<Float>(xfl,yfl,zfl).testMaximum();
+        new MaximumGeneric<String>(xs,ys,zs).testMaximum();
     }
 
 
