@@ -1,14 +1,14 @@
 package com.bridgelabz.Day13;
 
 public class  MaximumGeneric {
-    Float x,y,z;
-    MaximumGeneric(float x,float y,float z){
-        this.x = new Float(x);
-        this.y = new Float(y);
-        this.z = new Float(z);
+    String x,y,z;
+    MaximumGeneric(String x,String y,String z){
+        this.x = new String(x);
+        this.y = new String(y);
+        this.z = new String(z);
     }
-    Float maximum(){
-        Float max = x;
+    String maximum(){
+        String max = x;
         if(y.compareTo(max)>0){
             max = y;
         }

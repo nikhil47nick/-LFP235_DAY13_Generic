@@ -9,8 +9,7 @@ public class Main {
         String xs="new",ys="hello",zs="world";
 
 
-        new MaximumGeneric(xfl,yfl,zfl).maximum();
-
+        new MaximumGeneric(xs,ys,zs).maximum();
     }
 
 
